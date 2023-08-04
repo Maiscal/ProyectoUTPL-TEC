@@ -1,0 +1,115 @@
+/* Estilos para la tarjeta */
+.card {
+    background-color: #7c94b4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+
+  }
+  
+  /* Estilos para el título principal */
+  .card h3 {
+    font-size: 16px;
+    color: #7f7f7f;
+    margin-bottom: 10px;
+    text-align: justify;
+    transition: color 0.3s ease; 
+  }
+  .card h3:hover {
+    color: #003f70; /* Color de texto diferente al hacer hover */
+  }
+  .card h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #003f70;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos para el subtítulo */
+  .card h2 {
+    font-size: 20px;
+    color: #225b89;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  /* Estilos para el párrafo de descripción */
+  .card p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para la ciudad */
+  .card .ciudad {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el texto del tutor */
+  .card .tutor {
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para los detalles adicionales si los hubiera */
+  .card .detalles {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  
+
+
+  
+  /* postulaciones.css */
+.postulaciones-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  
+  }
+  
+  .card {
+    flex: 0 0 calc(25% - 20px); /* Esto hace que cada tarjeta ocupe un tercio del contenedor con un espacio de 20px de separación */
+    background-color: #f9f9f9;
+    border: 1px solid #003f70;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px gray;
+    transition: box-shadow 0.3s ease;
+    margin-right: 20px;
+    
+  
+  }
+  .card:hover {
+    box-shadow: 5px 5px 20px rgba(87, 104, 255, 0.372);
+  }
+  
+  /* Estilos para los títulos y contenido de las tarjetas */
+  .card h2, .card h3, .card p {
+    margin: 5px 0;
+  }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#titlePost{
+text-align: center;
+color: #003f70;
+font-size: 40px;
+text-align: center;
+margin: 30px;
+}

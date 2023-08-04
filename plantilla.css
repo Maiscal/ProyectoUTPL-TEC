@@ -1,0 +1,94 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #003f70;
+    color: white;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    padding-left: 5px;
+    
+}
+.logo img{
+    margin-right: 10px;
+    width: 80px; 
+
+   
+}
+.usuario{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.img-btn{
+    display: flex;
+    flex-direction: column;
+}
+.img-btn img{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.info{
+    text-align: center;
+    margin-right: 20px;
+}
+.btn{
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.container{
+  background-color: rgb(255, 196, 0);
+  width: 100%;
+  padding-top: 15px;
+  margin-top: 5px;
+  padding-bottom: 15px;
+}
+.row{
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn1{
+    border-radius: 20px;
+    padding: 10px;
+    width: 180px;
+    background-color: #003f70;
+    color: white;
+}
+.contenedorBusqueda{
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+.container_form{
+    background-color: #7c94b4;
+    flex: 0 0 calc(30% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.containerDataimput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.containerInfo{
+    display: flex;
+    
+    margin: 5px 0px 5px 0px;
+    flex-direction: column;
+    border: 2px solid #7c94b4;
+    padding: 5px;
+    justify-content: center;
+}
+
